@@ -65,7 +65,7 @@ local on_attach = function(client, bufnr)
     map.buffn('<leader>wl', function()
         print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
     end, { desc = '[W]orkspace [L]ist Folders', buffer = bufnr })
-
+    enable_format_on_save(client, bufnr)
     -- Display Diagnostic box on cursor hover
     -- vim.api.nvim_create_autocmd("CursorHold", {
     --     buffer = bufnr,
