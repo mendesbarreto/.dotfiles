@@ -3,36 +3,36 @@
 local telescope = require('telescope')
 
 telescope.setup {
-  defaults = {
-    prompt_prefix = '$ ',
-    color_devicons = true,
-    file_ignore_patterns = { 'node_modules', 'dist' },
-    vimgrep_arguments = { 'rg', '--hidden', '--no-heading', '--with-filename', '--line-number', '--column',
-      '--smart-case' },
-    mappings = {
-      i = {
-        ['<C-u>'] = false,
-        ['<C-d>'] = false,
-      },
+    defaults = {
+        prompt_prefix = '$ ',
+        color_devicons = true,
+        file_ignore_patterns = { 'node_modules', 'dist', 'temp', '.vim/undodir' },
+        vimgrep_arguments = { 'rg', '--hidden', '--no-heading', '--with-filename', '--line-number', '--column',
+            '--smart-case' },
+        mappings = {
+            i = {
+                ['<C-u>'] = false,
+                ['<C-d>'] = false,
+            },
+        },
     },
-  },
-  extension = {
-    fzf = {
-      fuzzy = true, -- false will only do exact matching
-      override_generic_sorter = true, -- override the generic sorter
-      override_file_sorter = true, -- override the file sorter
-      case_mode = "smart_case", -- or "ignore_case" or "respect_case"
-    }
-  },
-  pickers = {
-    find_files = {
-      hidden = true,
-      no_ignore = true,
-      no_ignore_parent = true,
-      follow = true,
-      --find_command = { 'rg', '--ignore', '--hidden', '--files' }
-    }
-  },
+    extension = {
+        fzf = {
+            fuzzy = true, -- false will only do exact matching
+            override_generic_sorter = true, -- override the generic sorter
+            override_file_sorter = true, -- override the file sorter
+            case_mode = "smart_case", -- or "ignore_case" or "respect_case"
+        }
+    },
+    pickers = {
+        find_files = {
+            hidden = true,
+            no_ignore = true,
+            no_ignore_parent = true,
+            follow = true,
+            --find_command = { 'rg', '--ignore', '--hidden', '--files' }
+        }
+    },
 }
 
 
@@ -46,10 +46,10 @@ local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>?', builtin.oldfiles, { desc = '[?] Find recently opened files' })
 vim.keymap.set('n', '<leader><space>', builtin.buffers, { desc = '[ ] Find existing bufferes' })
 vim.keymap.set('n', '<leader>/', function()
-  builtin.current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
-    winblend = 10,
-    previewer = false,
-  })
+    builtin.current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
+        winblend = 10,
+        previewer = false,
+    })
 end, { desc = '[/] Fuzzily search in current buffer' })
 
 --vim.keymap.set('n', '<leader>sf', '<cmd>Telescope find_files hidden=true no_ignore=true<cr>', { desc = '[S]earch [F]iles'})
