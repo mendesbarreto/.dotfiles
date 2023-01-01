@@ -47,7 +47,10 @@ return require('packer').startup(function(use)
     } -- Auto completion
     use { 'tzachar/cmp-tabnine', run = './install.sh', requires = 'hrsh7th/nvim-cmp' }
     use { 'L3MON4D3/LuaSnip', requires = { 'saadparwaiz1/cmp_luasnip' } } -- Snippet Engine and Snippet Expansion
+
+    -- Themes
     use { 'joshdick/onedark.vim' } -- Theme inspired by Atom
+    use { 'marko-cerovac/material.nvim' } -- Theme inspired by Atom
 
     -- Auto close brackets, parens, quotes and etc.
     use { 'windwp/nvim-autopairs' }
@@ -75,6 +78,8 @@ return require('packer').startup(function(use)
     use 'theHamsta/nvim-dap-virtual-text'
     use 'nvim-telescope/telescope-dap.nvim'
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+
+    use { 'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim' }
     if is_bootstrap then
         require('packer').sync()
     end

@@ -71,10 +71,7 @@ opt.breakindent = true
 opt.updatetime = 250
 vim.wo.signcolumn = 'yes'
 
--- Set colorscheme
---opt.termguicolors = true
-vim.cmd [[colorscheme onedark]]
-vim.cmd [[set background=dark]]
+vim.g.material_style = "deep ocean"
 
 -- Set completeopt to have a better completion experience
 opt.completeopt = 'menuone,noselect'
@@ -84,7 +81,6 @@ opt.completeopt = 'menuone,noselect'
 -- see `:help mapleader`
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-
 -- Keymaps for better defaul experience
 -- See `:help vimkeymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
@@ -103,3 +99,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     group = highlight_group,
     pattern = '*',
 })
+
+-- Set colorscheme
+opt.termguicolors = true
+vim.cmd [[colorscheme material]]
+-- vim.cmd [[set background=dark]]
