@@ -6,7 +6,7 @@ telescope.setup {
     defaults = {
         prompt_prefix = '$ ',
         color_devicons = true,
-        file_ignore_patterns = { 'node_modules', 'dist', '.git', 'tmp', 'temp', '.vim/undodir' },
+        file_ignore_patterns = { 'node_modules', 'dist', '.git', 'tmp', 'temp', '.vim/undodir', 'venv' },
         vimgrep_arguments = { 'rg', '--hidden', '--no-heading', '--with-filename', '--line-number', '--column',
             '--smart-case' },
         mappings = {
