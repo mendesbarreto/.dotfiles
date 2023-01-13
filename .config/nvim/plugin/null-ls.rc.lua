@@ -12,10 +12,10 @@ local augroup_format = vim.api.nvim_create_augroup("Format", { clear = true })
 
 null_ls.setup({
     sources = {
-        diagnostics.eslint_d.with({
+        diagnostics.eslint.with({
             diagnostics_format = '[eslint]\n #{m}\n(#{c})'
         }),
-        code_actions.eslint_d,
+        code_actions.eslint,
         diagnostics.fish,
         formatting.prettierd,
     },
