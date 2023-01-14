@@ -18,6 +18,8 @@ opt.incsearch = true
 -- Show relative number
 opt.relativenumber = true
 
+opt.modifiable = true
+
 -- Enable mouse mode
 opt.mouse = 'a'
 
@@ -76,11 +78,6 @@ vim.g.material_style = "deep ocean"
 -- Set completeopt to have a better completion experience
 opt.completeopt = 'menuone,noselect'
 
--- [[ Basic Keymaps ]]
--- Set <space> as the leader key
--- see `:help mapleader`
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
 -- Keymaps for better defaul experience
 -- See `:help vimkeymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
@@ -102,5 +99,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 
 -- Set colorscheme
 opt.termguicolors = true
-vim.cmd [[colorscheme material]]
+vim.cmd.colorscheme "catppuccin"
 -- vim.cmd [[set background=dark]]

@@ -1,41 +1,58 @@
-local install_path = vim.fn.stdpath 'data' .. '/site/pack/packer/start/packer.nvim'
-local is_bootstrap = false
-
-if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
-    is_bootstrap = true
-    vim.fn.execute('git clone https://github.com/wbthomason/packer.nvim ' .. install_path)
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+    vim.fn.system({
+        "git",
+        "clone",
+        "--filter=blob:none",
+        "https://github.com/folke/lazy.nvim.git",
+        "--branch=stable", -- latest stable release
+        lazypath,
+    })
 end
 
--- Automatically source and re-compile packer whenever you save this init.lua
-local packer_group = vim.api.nvim_create_augroup('Packer', { clear = true })
-vim.api.nvim_create_autocmd('BufWritePost', {
-    command = 'source <afile> | PackerCompile',
-    group = packer_group,
-    pattern = vim.fn.expand '$MYVIMRC',
-})
+vim.opt.rtp:prepend(lazypath)
 
-vim.cmd [[packadd packer.nvim]]
+-- Lazy require setup the leader key before setup lazy
+-- Set <space> as the leader key
+-- see `:help mapleader`
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 
-return require('packer').startup(function(use)
-    use 'wbthomason/packer.nvim' -- Package manager for Nvim
-    use 'tpope/vim-fugitive' -- Git command in nvim
-    use 'tpope/vim-rhubarb' -- GitHub integration with nvim
-    use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } } -- Add relate sign to show git history modification
-    use 'numToStr/Comment.nvim' -- add comments on the code
-    use {
+
+require('lazy').setup({
+    -- Package manager for Nvim
+    { 'wbthomason/packer.nvim' },
+    -- Git command in nvim,
+    { 'tpope/vim-fugitive' },
+    -- GitHub integration with nvim
+
+    { 'tpope/vim-rhubarb' },
+    -- add comments on the code
+
+    { 'numToStr/Comment.nvim' },
+    -- Add relate sign to show git history modification
+    { 'lewis6991/gitsigns.nvim', dependencies = { 'nvim-lua/plenary.nvim' } },
+    {
         'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate',
-        branch = 'master'
-    }
-    use 'neovim/nvim-lspconfig' -- Collection of configuration for built-in lsp client
-    use { 'nvim-treesitter/nvim-treesitter-textobjects', after = { 'nvim-treesitter' }, branch = 'master' }
-    use 'williamboman/mason.nvim' -- Manage external editor tooling i.e LSP servers
-    use 'williamboman/mason-lspconfig.nvim' -- Automatically install language servers to stdpath
-    use 'ray-x/go.nvim'
-    use 'ray-x/guihua.lua' -- recommanded if need floating window support
-    use {
+        build = function()
+            pcall(require('nvim-treesitter.install').update({ with_sync = true }))
+        end,
+        dependencies = { 'nvim-treesitter/nvim-treesitter-textobjects' },
+        branch = 'master',
+    },
+    -- Collection of configuration for built-in lsp client
+    { 'neovim/nvim-lspconfig' },
+
+    -- Manage external editor tooling i.e LSP servers
+    { 'williamboman/mason.nvim' },
+    -- Automatically install language servers to stdpath
+    { 'williamboman/mason-lspconfig.nvim' },
+    { 'ray-x/go.nvim' },
+    -- recommanded if need floating window support
+    { 'ray-x/guihua.lua' },
+    {
         'hrsh7th/nvim-cmp',
-        requires = {
+        dependencies = {
             'hrsh7th/cmp-nvim-lsp',
             'hrsh7th/cmp-buffer',
             'hrsh7th/cmp-path',
@@ -43,44 +60,45 @@ return require('packer').startup(function(use)
             'hrsh7th/cmp-nvim-lua',
             'hrsh7th/cmp-nvim-lsp-signature-help',
             'saadparwaiz1/cmp_luasnip',
-        }
-    } -- Auto completion
-    use { 'tzachar/cmp-tabnine', run = './install.sh', requires = 'hrsh7th/nvim-cmp' }
-    use { 'L3MON4D3/LuaSnip', requires = { 'saadparwaiz1/cmp_luasnip' } } -- Snippet Engine and Snippet Expansion
+        },
+    }, -- Auto completion
+    { 'tzachar/cmp-tabnine', build = './install.sh', dependencies = { 'hrsh7th/nvim-cmp' } },
+    -- Snippet Engine and Snippet Expansion
+    { 'L3MON4D3/LuaSnip', dependencies = { 'saadparwaiz1/cmp_luasnip' } },
 
-    -- Themes
-    use { 'joshdick/onedark.vim' } -- Theme inspired by Atom
-    use { 'marko-cerovac/material.nvim' } -- Theme inspired by Atom
+    -- ========= [[ THEMES ]] ===========
+    -- Theme inspired by Atom
+    { 'joshdick/onedark.vim' },
+    -- Theme inspired by Atom
+    { 'marko-cerovac/material.nvim' },
+    { "catppuccin/nvim", name = "catppuccin" },
 
     -- Auto close brackets, parens, quotes and etc.
-    use { 'windwp/nvim-autopairs' }
+    { 'windwp/nvim-autopairs' },
 
     --use { 'rakr/vim-one', branch = 'master' }
-    use 'nvim-lualine/lualine.nvim' -- Fancier status line
-    use 'lukas-reineke/indent-blankline.nvim' -- Add identatnion lines
+    -- Fancier status line
+    { 'nvim-lualine/lualine.nvim' },
+    -- Add identatnion lines
+    { 'lukas-reineke/indent-blankline.nvim' },
     -- use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
     -- Fuzzy Finder (files, lsp, etc)
-    use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
+    { 'nvim-telescope/telescope.nvim', branch = '0.1.x', dependencies = { 'nvim-lua/plenary.nvim' } },
     -- Fuzzy  Finder Algorithm which requires local dependencies to be built.
-    use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
-
-    use 'jose-elias-alvarez/null-ls.nvim'
-    use 'MunifTanjim/eslint.nvim'
-    use 'MunifTanjim/prettier.nvim'
-    use { "glepnir/lspsaga.nvim", branch = "main" }
+    { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
+    { 'jose-elias-alvarez/null-ls.nvim' },
+    { 'MunifTanjim/eslint.nvim' },
+    { 'MunifTanjim/prettier.nvim' },
+    { "glepnir/lspsaga.nvim", event = 'BufRead' },
 
     -- Terminal on neovim
-    use { 'akinsho/toggleterm.nvim', tag = '*' }
+    { 'akinsho/toggleterm.nvim', version = '*' },
 
     -- DAP
-    use 'mfussenegger/nvim-dap'
-    use 'leoluz/nvim-dap-go'
-    use 'theHamsta/nvim-dap-virtual-text'
-    use 'nvim-telescope/telescope-dap.nvim'
-    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
-
-    use { 'akinsho/flutter-tools.nvim', requires = 'nvim-lua/plenary.nvim' }
-    if is_bootstrap then
-        require('packer').sync()
-    end
-end)
+    { 'mfussenegger/nvim-dap' },
+    { 'leoluz/nvim-dap-go' },
+    { 'theHamsta/nvim-dap-virtual-text' },
+    { 'nvim-telescope/telescope-dap.nvim' },
+    { "rcarriga/nvim-dap-ui", dependencies = { "mfussenegger/nvim-dap" } },
+    { 'akinsho/flutter-tools.nvim', dependencies = 'nvim-lua/plenary.nvim' },
+})

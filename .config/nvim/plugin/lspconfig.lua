@@ -10,12 +10,13 @@ if (not status) then
     return
 end
 
+saga.setup({})
+
 local utils = require('mendesbarreto/utils')
 local map = utils.map
 
 require('vim.lsp.protocol')
 
-saga.init_lsp_saga()
 
 local augroup_format = vim.api.nvim_create_augroup("Format", { clear = true })
 local enable_format_on_save = function(_, bufnr)
