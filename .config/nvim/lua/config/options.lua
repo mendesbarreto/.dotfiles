@@ -5,6 +5,7 @@ opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 -- Save changes from vim to the system clipboard
 opt.clipboard = "unnamed"
+
 -- The scroll offse will be 15 lines
 opt.scrolloff = 15
 

@@ -6,7 +6,7 @@ return {
     inlay_hints = { enabled = true },
     servers = {
       clangd = {
-        cmd = { "clangd", "--background-index" },
+        cmd = { "clangd", "--background-index", "--offset-encoding=utf-16" },
         filetypes = { "c", "cpp", "objc", "objcpp" },
       },
     },
