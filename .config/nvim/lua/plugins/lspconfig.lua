@@ -17,9 +17,17 @@ return {
   opts = {
     inlay_hints = { enabled = true },
     servers = {
+      ocamllsp = {
+        mason = false,
+      },
       clangd = {
         cmd = { "clangd", "--background-index", "--offset-encoding=utf-16", "--inlay-hints=true" },
         filetypes = { "c", "cpp", "objc", "objcpp" },
+      },
+      hdl_checker = {
+        cmd = { "hdl_checker", "--lsp" },
+        mason = false,
+        filetypes = { "verilog", "systemverilog", "vhdl", "hdl" },
       },
       lua_ls = {
         -- mason = false, -- set to false if you don't want this server to be installed with mason
