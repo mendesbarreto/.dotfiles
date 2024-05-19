@@ -54,7 +54,7 @@ return {
   -- TreeSitter
   -- { "nvim-treesitter/nvim-treesitter", enabled = false },
   -- { "nvim-treesitter/nvim-treesitter-textobjects", enabled = false },
-  { "nvim-treesitter/nvim-treesitter-context", enabled = false },
+  -- { "nvim-treesitter/nvim-treesitter-context", enabled = false },
   -- { "windwp/nvim-ts-autotag", enabled = false },
   -- { "nvim-treesitter/nvim-treesitter", enabled = false },
 
@@ -81,7 +81,7 @@ return {
 
   -- { "nvim-lualine/lualine.nvim", enabled = false },
   -- { "L3MON4D3/LuaSnip", enabled = false },
-  { "zbirenbaum/copilot-cmp", enabled = false },
+  -- { "zbirenbaum/copilot-cmp", enabled = false },
   -- { "echasnovski/mini.pairs", enabled = false },
   -- { "echasnovski/mini.bufremove", enabled = false },
   -- { "echasnovski/mini.indentscope", enabled = false },
