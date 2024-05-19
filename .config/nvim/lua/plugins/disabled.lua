@@ -81,7 +81,7 @@ return {
 
   -- { "nvim-lualine/lualine.nvim", enabled = false },
   -- { "L3MON4D3/LuaSnip", enabled = false },
-  -- { "zbirenbaum/copilot-cmp", enabled = false },
+  { "zbirenbaum/copilot-cmp", enabled = false },
   -- { "echasnovski/mini.pairs", enabled = false },
   -- { "echasnovski/mini.bufremove", enabled = false },
   -- { "echasnovski/mini.indentscope", enabled = false },

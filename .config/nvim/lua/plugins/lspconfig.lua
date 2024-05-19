@@ -16,7 +16,15 @@ return {
   },
   opts = {
     inlay_hints = { enabled = true },
+    diagnostics = {
+      float = {
+        border = "rounded",
+      },
+    },
     servers = {
+      pyright = {
+        enabled = true,
+      },
       ocamllsp = {
         mason = false,
       },

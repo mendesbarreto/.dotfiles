@@ -20,6 +20,11 @@ return {
   },
   ---@param opts cmp.ConfigSchema
   opts = function(_, opts)
+    local cmp = require("cmp")
+    opts.window = {
+      completion = cmp.config.window.bordered(),
+      documentation = cmp.config.window.bordered(),
+    }
     table.insert(opts.sources, 1, {
       name = "copilot",
       group_index = 1,
