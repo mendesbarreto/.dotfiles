@@ -16,13 +16,19 @@ return {
   },
   opts = function(_, opts)
     table.insert(opts.inlay_hints, { enabled = true })
-    table.insert(opts, {
-      diagnostics = {
-        float = {
-          border = "rounded",
-        },
+    table.insert(opts.codelens, { enabled = true })
+
+    opts.diagnostics = {
+      float = {
+        border = "rounded",
       },
-    })
+    }
+
+    -- table.insert(opts.servers.tsserver.settings.typescript, {
+    --   implementationsCodeLens = { enabled = true },
+    --   referencesCodeLens = { enabled = true, showOnAllFunctions = true },
+    -- })
+
     local servers = {
       pyright = {
         enabled = true,
