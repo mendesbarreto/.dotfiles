@@ -14,7 +14,12 @@ return {
   -- { "nvim-telescope/telescope.nvim", enabled = false },
   -- { "telescope.nvim", enabled = false },
   -- { "nvim-telescope/telescope-fzf-native.nvim", enabled = false },
-
+  { "MagicDuck/grug-far.nvim", enabled = false },
+  { "folke/flash.nvim", enabled = false },
+  { "akinsho/bufferline.nvim", enabled = false },
+  { "indent-blankline.nvim", enabled = false },
+  { "folke/edgy.nvim", enabled = false },
+  { "stevearc/dial.nvim", enabled = false },
   -- Mine
   -- { "nvim-neotest/neotest", enabled = false },
 

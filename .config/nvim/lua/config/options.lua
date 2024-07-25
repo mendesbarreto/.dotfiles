@@ -8,6 +8,7 @@ opt.clipboard = "unnamed"
 
 -- The scroll offse will be 15 lines
 opt.scrolloff = 15
+opt.showmode = false
 
 vim.o.cmdheight = 0
 vim.o.showcmdloc = "statusline"

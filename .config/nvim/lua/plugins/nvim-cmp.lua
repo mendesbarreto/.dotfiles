@@ -6,7 +6,8 @@ return {
     opts.window = {
       completion = cmp.config.window.bordered(),
       documentation = cmp.config.window.bordered(),
-      d,
     }
+
+    table.insert(opts.sources, 1, { name = "cody", group_index = 1, priority = 100 })
   end,
 }
