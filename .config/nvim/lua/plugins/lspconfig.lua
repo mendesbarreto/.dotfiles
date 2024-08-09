@@ -15,7 +15,7 @@ return {
     },
   },
   opts = function(_, opts)
-    table.insert(opts.inlay_hints, { enabled = true })
+    table.insert(opts.inlay_hints, { enabled = false })
     table.insert(opts.codelens, { enabled = true })
 
     opts.diagnostics = {
