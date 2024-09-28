@@ -8,7 +8,7 @@ return {
     table.insert(opts.ensure_installed, "gopls")
     table.insert(opts.ensure_installed, "rust-analyzer")
     table.insert(opts.ensure_installed, "cmake-language-server")
-
+    table.insert(opts.ensure_installed, "omnisharp")
     opts.ui = {
       border = "rounded",
     }

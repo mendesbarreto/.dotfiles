@@ -13,3 +13,22 @@ opt.showmode = false
 vim.o.cmdheight = 0
 vim.o.showcmdloc = "statusline"
 vim.o.winbar = "%{%v:lua.require'nvim-navic'.get_location()%}"
+
+vim.g.OmniSharp_server_use_net6 = 1
+-- vim.api.nvim_create_autocmd("BufEnter", {
+--   pattern = { "*.py", "*.go" },
+--   callback = function()
+--     vim.opt_local.tabstop = 4
+--     vim.opt_local.shiftwidth = 4
+--     vim.opt_local.expandtab = true
+--   end,
+-- })
+--
+-- vim.api.nvim_create_autocmd("BufEnter", {
+--   pattern = { "*.js", "*.ts" },
+--   callback = function()
+--     vim.opt_local.tabstop = 2
+--     vim.opt_local.shiftwidth = 2
+--     vim.opt_local.expandtab = true
+--   end,
+-- })
