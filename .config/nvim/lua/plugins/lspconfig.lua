@@ -1,5 +1,4 @@
 -- clangd
-
 return {
   "neovim/nvim-lspconfig",
   keys = {
@@ -24,11 +23,6 @@ return {
       },
     }
 
-    -- table.insert(opts.servers.tsserver.settings.typescript, {
-    --   implementationsCodeLens = { enabled = true },
-    --   referencesCodeLens = { enabled = true, showOnAllFunctions = true },
-    -- })
-
     local servers = {
       pyright = {
         enabled = true,
@@ -51,4 +45,29 @@ return {
       table.insert(opts.servers, { value })
     end
   end,
+  setup = {
+    eslint = function()
+      require("lazyvim.util").lsp.on_attach(function(client)
+        if client.name == "biome" then
+          client.server_capabilities.documentFormattingProvider = true
+        elseif client.name == "eslint" then
+          client.server_capabilities.documentFormattingProvider = false
+        elseif client.name == "tsserver" then
+          client.server_capabilities.documentFormattingProvider = false
+        end
+      end)
+    end,
+
+    jsonls = function()
+      require("lazyvim.util").lsp.on_attach(function(client)
+        if client.name == "biome" then
+          client.server_capabilities.documentFormattingProvider = true
+        elseif client.name == "prettier" then
+          client.server_capabilities.documentFormattingProvider = false
+        elseif client.name == "jsonls" then
+          client.server_capabilities.documentFormattingProvider = false
+        end
+      end)
+    end,
+  },
 }

@@ -9,6 +9,7 @@ return {
     table.insert(opts.ensure_installed, "rust-analyzer")
     table.insert(opts.ensure_installed, "cmake-language-server")
     table.insert(opts.ensure_installed, "omnisharp")
+    table.insert(opts.ensure_installed, "biome")
     opts.ui = {
       border = "rounded",
     }
