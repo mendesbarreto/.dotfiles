@@ -1,0 +1,15 @@
+theme = catppuccin-mocha
+
+font-family = Berkeley Mono
+font-style = Regular
+font-size = 13.5
+font-thicken = true
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+cursor-style = block
+cursor-style-blink = false
+
+shell-integration = zsh
+shell-integration-features = no-cursor
