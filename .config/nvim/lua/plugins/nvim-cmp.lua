@@ -1,6 +1,7 @@
 return {
   "nvim-cmp",
-  ---@param opts cmp.ConfigSchema
+  optional = true,
+  -- @param opts cmp.ConfigSchema
   opts = function(_, opts)
     local cmp = require("cmp")
     opts.window = {

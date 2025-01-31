@@ -3,6 +3,7 @@ return {
     "sourcegraph/sg.nvim",
     dependencies = {
       "nvim-lua/plenary.nvim", --[[ "nvim-telescope/telescope.nvim ]]
+      "saghen/blink.compat",
     },
 
     -- If you have a recent version of lazy.nvim, you don't need to add this!

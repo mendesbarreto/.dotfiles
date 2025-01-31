@@ -14,6 +14,7 @@ return {
   -- { "nvim-telescope/telescope.nvim", enabled = false },
   -- { "telescope.nvim", enabled = false },
   -- { "nvim-telescope/telescope-fzf-native.nvim", enabled = false },
+  { "folke/zen-mode.nvim", enabled = false },
   { "MagicDuck/grug-far.nvim", enabled = false },
   { "folke/flash.nvim", enabled = false },
   { "akinsho/bufferline.nvim", enabled = false },
