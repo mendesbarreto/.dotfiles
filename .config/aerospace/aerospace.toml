@@ -258,3 +258,24 @@ run = "move-node-to-workspace M"
 [[on-window-detected]]
 if.app-id = 'ru.keepcoder.Telegram'
 run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = 'com.hnc.Discord'
+run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = 'com.hnc.Discord'
+run = "com.microsoft.teams2"
+
+# [EVENTS] IDE's 
+[[on-window-detected]]
+if.app-id = 'com.jetbrains.intellij'
+run = "move-node-to-workspace A"
+
+[[on-window-detected]]
+if.app-id = 'com.google.android.studio'
+run = "move-node-to-workspace A"
+
+[[on-window-detected]]
+if.app-id = 'com.apple.dt.Xcode'
+run = "move-node-to-workspace A"
