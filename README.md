@@ -1,19 +1,27 @@
-## My Public Dot files
+# My Public Dot files
 
-### Setup Git Bare
+## Dot files 
 [Git work-tree](https://davidinformatico.com/dotfiles-saving-strategy) 
 
+#### Clone dot files
 ```shell
 $ git clone --bare git@github.com:mendesbarreto/.dotfiles.git $HOME/.config
-$ git --local status.showUntrackedFiles no
 ```
 
+#### Add Alias to .zshrc
 ```shell
 # Add to zshrc
 alias gitdotfiles='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
 ```
 
-### Setup Tmux
+#### Check and Ignore not added files
+
+```shell
+config checkout -f // we do force the override of existing files
+config config --local status.showUntrackedFiles no
+```
+
+## Tmux
 
 ```shell
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
