@@ -39,6 +39,13 @@ return {
         mason = false,
         filetypes = { "verilog", "systemverilog", "vhdl", "hdl" },
       },
+      zls = {
+        settings = {
+          enable_build_on_save = true,
+          build_on_save_step = "check",
+          zig_exe_path = { "/opt/homebrew/bin/zig" },
+        },
+      },
     }
 
     for _, value in ipairs(servers) do

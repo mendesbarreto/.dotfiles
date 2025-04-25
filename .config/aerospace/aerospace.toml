@@ -264,8 +264,9 @@ if.app-id = 'com.hnc.Discord'
 run = "move-node-to-workspace M"
 
 [[on-window-detected]]
-if.app-id = 'com.hnc.Discord'
-run = "com.microsoft.teams2"
+if.app-id = 'com.microsoft.teams2'
+run = "move-node-to-workspace M"
+
 
 # [EVENTS] IDE's 
 [[on-window-detected]]
@@ -279,3 +280,8 @@ run = "move-node-to-workspace A"
 [[on-window-detected]]
 if.app-id = 'com.apple.dt.Xcode'
 run = "move-node-to-workspace A"
+
+
+[[on-window-detected]]
+if.app-id = 'com.apple.iphonesimulator'
+run = "layout floating"

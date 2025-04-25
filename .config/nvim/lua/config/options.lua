@@ -16,8 +16,10 @@ vim.o.winbar = "%{%v:lua.require'nvim-navic'.get_location()%}"
 
 vim.g.OmniSharp_server_use_net6 = 1
 vim.g.lazyvim_prettier_needs_config = true
-
 vim.g.snacks_animate = false
+vim.g.neovide_input_macos_option_key_is_meta = "only_left"
+vim.opt.laststatus = 3
+
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.py", "*.go" },
 --   callback = function()

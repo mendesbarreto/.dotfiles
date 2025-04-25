@@ -10,6 +10,7 @@ return {
     table.insert(opts.ensure_installed, "cmake-language-server")
     table.insert(opts.ensure_installed, "omnisharp")
     table.insert(opts.ensure_installed, "biome")
+    table.insert(opts.ensure_installed, "zls")
     opts.ui = {
       border = "rounded",
     }

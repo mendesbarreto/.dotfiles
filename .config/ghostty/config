@@ -13,3 +13,5 @@ cursor-style-blink = false
 
 shell-integration = zsh
 shell-integration-features = no-cursor
+
+#custom-shader = ./ghostty-shaders/matrix-hallway.glsl
