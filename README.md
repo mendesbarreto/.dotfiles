@@ -17,7 +17,7 @@ alias gitdotfiles='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
 #### Check and Ignore not added files
 
 ```shell
-config checkout -f // we do force the override of existing files
+config checkout -f
 config config --local status.showUntrackedFiles no
 ```
 
