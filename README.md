@@ -11,7 +11,7 @@ $ git clone --bare git@github.com:mendesbarreto/.dotfiles.git $HOME/.config
 #### Add Alias to .zshrc
 ```shell
 # Add to zshrc
-alias gitdotfiles='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
 ```
 
 #### Check and Ignore not added files
