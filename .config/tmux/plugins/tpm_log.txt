@@ -1,1 +1,623 @@
 Invoking /Users/douglasmendes/.config/tmux/plugins/tpm/bin/clean_plugins all ...
+[2025-05-05 15:30:33.582]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-05 15:30:33.595]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-05 15:30:33.806]	Already installed "tmux-cpu"
+[2025-05-05 15:30:33.817]	Already installed "tmux-continuum"
+[2025-05-05 15:30:33.829]	Already installed "tmux-resurrect"
+[2025-05-05 15:30:33.842]	Already installed "tmux-copycat"
+[2025-05-05 15:30:33.854]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-05 15:30:34.008]	Updating all plugins!
+[2025-05-05 15:30:34.019]	
+[2025-05-05 15:30:34.403]	  "tmux-copycat" update success
+[2025-05-05 15:30:34.414]	    | Already up to date.
+[2025-05-05 15:30:34.426]	  "tmux-resurrect" update success
+[2025-05-05 15:30:34.438]	    | Already up to date.
+[2025-05-05 15:30:34.466]	  "tmux-continuum" update success
+[2025-05-05 15:30:34.477]	    | Already up to date.
+[2025-05-05 15:30:34.496]	  "tmux-cpu" update success
+[2025-05-05 15:30:34.507]	    | Already up to date.
+[2025-05-05 15:30:34.519]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-05 15:30:34.610]	Done.
+
+[2025-05-05 17:55:31.506]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-05 17:55:31.517]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-05 17:55:31.711]	Already installed "tmux-copycat"
+[2025-05-05 17:55:31.724]	Already installed "tmux-resurrect"
+[2025-05-05 17:55:31.745]	Already installed "tmux-continuum"
+[2025-05-05 17:55:31.757]	Already installed "tmux-cpu"
+[2025-05-05 17:55:31.769]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-05 17:55:31.930]	Updating all plugins!
+[2025-05-05 17:55:31.943]	
+[2025-05-05 17:55:32.399]	  "tmux-cpu" update success
+[2025-05-05 17:55:32.416]	    | Already up to date.
+[2025-05-05 17:55:32.470]	  "tmux-copycat" update success
+[2025-05-05 17:55:32.485]	    | Already up to date.
+[2025-05-05 17:55:32.560]	  "tmux-continuum" update success
+[2025-05-05 17:55:32.571]	    | Already up to date.
+[2025-05-05 17:55:32.583]	  "tmux-resurrect" update success
+[2025-05-05 17:55:32.594]	    | Already up to date.
+[2025-05-05 17:55:32.607]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-05 17:55:32.710]	Done.
+
+[2025-05-12 11:16:46.897]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-12 11:16:46.909]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-12 11:16:47.124]	Already installed "tmux-cpu"
+[2025-05-12 11:16:47.135]	Already installed "tmux-copycat"
+[2025-05-12 11:16:47.146]	Already installed "tmux-continuum"
+[2025-05-12 11:16:47.157]	Already installed "tmux-resurrect"
+[2025-05-12 11:16:47.169]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-12 11:16:47.318]	Updating all plugins!
+[2025-05-12 11:16:47.330]	
+[2025-05-12 11:16:47.762]	  "tmux-continuum" update success
+[2025-05-12 11:16:47.774]	    | Already up to date.
+[2025-05-12 11:16:47.791]	  "tmux-cpu" update success
+[2025-05-12 11:16:47.805]	    | Already up to date.
+[2025-05-12 11:16:47.834]	  "tmux-resurrect" update success
+[2025-05-12 11:16:47.846]	    | Already up to date.
+[2025-05-12 11:16:47.888]	  "tmux-copycat" update success
+[2025-05-12 11:16:47.901]	    | Already up to date.
+[2025-05-12 11:16:47.916]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-12 11:16:48.054]	Done.
+
+[2025-05-13 10:10:14.852]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-13 10:10:14.864]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-13 10:10:15.086]	Already installed "tmux-copycat"
+[2025-05-13 10:10:15.098]	Already installed "tmux-continuum"
+[2025-05-13 10:10:15.109]	Already installed "tmux-cpu"
+[2025-05-13 10:10:15.120]	Already installed "tmux-resurrect"
+[2025-05-13 10:10:15.131]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-13 10:10:15.290]	Updating all plugins!
+[2025-05-13 10:10:15.305]	
+[2025-05-13 10:10:15.920]	  "tmux-continuum" update success
+[2025-05-13 10:10:15.935]	  "tmux-copycat" update success
+[2025-05-13 10:10:15.947]	  "tmux-cpu" update success
+[2025-05-13 10:10:15.960]	    | Already up to date.
+[2025-05-13 10:10:15.973]	    | Already up to date.
+[2025-05-13 10:10:15.985]	    | Already up to date.
+[2025-05-13 10:10:15.997]	  "tmux-resurrect" update success
+[2025-05-13 10:10:16.010]	    | Already up to date.
+[2025-05-13 10:10:16.024]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-13 10:10:16.127]	Done.
+
+[2025-05-13 10:58:52.241]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-13 10:58:52.253]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-13 10:58:52.474]	Already installed "tmux-copycat"
+[2025-05-13 10:58:52.485]	Already installed "tmux-cpu"
+[2025-05-13 10:58:52.496]	Already installed "tmux-continuum"
+[2025-05-13 10:58:52.506]	Already installed "tmux-resurrect"
+[2025-05-13 10:58:52.518]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-13 10:58:52.673]	Updating all plugins!
+[2025-05-13 10:58:52.683]	
+[2025-05-13 10:58:53.100]	  "tmux-cpu" update success
+[2025-05-13 10:58:53.114]	    | Already up to date.
+[2025-05-13 10:58:53.126]	  "tmux-copycat" update success
+[2025-05-13 10:58:53.141]	    | Already up to date.
+[2025-05-13 10:58:53.169]	  "tmux-continuum" update success
+[2025-05-13 10:58:53.181]	    | Already up to date.
+[2025-05-13 10:58:53.233]	  "tmux-resurrect" update success
+[2025-05-13 10:58:53.245]	    | Already up to date.
+[2025-05-13 10:58:53.258]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-13 10:58:53.359]	Done.
+
+[2025-05-13 17:28:03.991]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-13 17:28:04.004]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-13 17:28:04.207]	Already installed "tmux-copycat"
+[2025-05-13 17:28:04.218]	Already installed "tmux-continuum"
+[2025-05-13 17:28:04.228]	Already installed "tmux-cpu"
+[2025-05-13 17:28:04.239]	Already installed "tmux-resurrect"
+[2025-05-13 17:28:04.252]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-13 17:28:04.393]	Updating all plugins!
+[2025-05-13 17:28:04.404]	
+[2025-05-13 17:28:04.774]	  "tmux-copycat" update success
+[2025-05-13 17:28:04.786]	    | Already up to date.
+[2025-05-13 17:28:04.798]	  "tmux-resurrect" update success
+[2025-05-13 17:28:04.809]	    | Already up to date.
+[2025-05-13 17:28:04.822]	  "tmux-cpu" update success
+[2025-05-13 17:28:04.833]	    | Already up to date.
+[2025-05-13 17:28:04.845]	  "tmux-continuum" update success
+[2025-05-13 17:28:04.856]	    | Already up to date.
+[2025-05-13 17:28:04.869]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-13 17:28:04.958]	Done.
+
+[2025-05-14 08:03:57.421]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-14 08:03:57.433]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-14 08:03:57.634]	Already installed "tmux-copycat"
+[2025-05-14 08:03:57.646]	Already installed "tmux-cpu"
+[2025-05-14 08:03:57.656]	Already installed "tmux-continuum"
+[2025-05-14 08:03:57.668]	Already installed "tmux-resurrect"
+[2025-05-14 08:03:57.680]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-14 08:03:57.822]	Updating all plugins!
+[2025-05-14 08:03:57.833]	
+[2025-05-14 08:03:58.286]	  "tmux-copycat" update success
+[2025-05-14 08:03:58.300]	    | Already up to date.
+[2025-05-14 08:03:58.312]	  "tmux-resurrect" update success
+[2025-05-14 08:03:58.325]	    | Already up to date.
+[2025-05-14 08:03:58.338]	  "tmux-cpu" update success
+[2025-05-14 08:03:58.350]	    | Already up to date.
+[2025-05-14 08:03:58.366]	  "tmux-continuum" update success
+[2025-05-14 08:03:58.378]	    | Already up to date.
+[2025-05-14 08:03:58.390]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-14 08:03:58.475]	Done.
+
+[2025-05-14 19:21:30.272]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-14 19:21:30.283]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-14 19:21:30.485]	Already installed "tmux-cpu"
+[2025-05-14 19:21:30.496]	Already installed "tmux-continuum"
+[2025-05-14 19:21:30.506]	Already installed "tmux-copycat"
+[2025-05-14 19:21:30.516]	Already installed "tmux-resurrect"
+[2025-05-14 19:21:30.527]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-14 19:21:30.671]	Updating all plugins!
+[2025-05-14 19:21:30.682]	
+[2025-05-14 19:21:31.052]	  "tmux-copycat" update success
+[2025-05-14 19:21:31.068]	    | Already up to date.
+[2025-05-14 19:21:31.116]	  "tmux-resurrect" update success
+[2025-05-14 19:21:31.132]	    | Already up to date.
+[2025-05-14 19:21:31.158]	  "tmux-cpu" update success
+[2025-05-14 19:21:31.171]	    | Already up to date.
+[2025-05-14 19:21:31.184]	  "tmux-continuum" update success
+[2025-05-14 19:21:31.195]	    | Already up to date.
+[2025-05-14 19:21:31.207]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-14 19:21:31.285]	Done.
+
+[2025-05-22 09:19:59.654]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-22 09:19:59.665]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-22 09:19:59.881]	Already installed "tmux-copycat"
+[2025-05-22 09:19:59.892]	Already installed "tmux-continuum"
+[2025-05-22 09:19:59.902]	Already installed "tmux-cpu"
+[2025-05-22 09:19:59.912]	Already installed "tmux-resurrect"
+[2025-05-22 09:19:59.923]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-22 09:20:00.066]	Updating all plugins!
+[2025-05-22 09:20:00.078]	
+[2025-05-22 09:20:00.482]	  "tmux-cpu" update success
+[2025-05-22 09:20:00.495]	    | Already up to date.
+[2025-05-22 09:20:00.507]	  "tmux-continuum" update success
+[2025-05-22 09:20:00.519]	    | Already up to date.
+[2025-05-22 09:20:00.540]	  "tmux-copycat" update success
+[2025-05-22 09:20:00.551]	    | Already up to date.
+[2025-05-22 09:20:00.581]	  "tmux-resurrect" update success
+[2025-05-22 09:20:00.593]	    | Already up to date.
+[2025-05-22 09:20:00.606]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-22 09:20:00.697]	Done.
+
+[2025-05-22 11:33:40.541]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-22 11:33:40.553]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-22 11:33:40.783]	Already installed "tmux-continuum"
+[2025-05-22 11:33:40.795]	Already installed "tmux-cpu"
+[2025-05-22 11:33:40.805]	Already installed "tmux-copycat"
+[2025-05-22 11:33:40.816]	Already installed "tmux-resurrect"
+[2025-05-22 11:33:40.827]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-22 11:33:40.993]	Updating all plugins!
+[2025-05-22 11:33:41.007]	
+[2025-05-22 11:33:41.378]	  "tmux-copycat" update success
+[2025-05-22 11:33:41.390]	    | Already up to date.
+[2025-05-22 11:33:41.417]	  "tmux-continuum" update success
+[2025-05-22 11:33:41.430]	    | Already up to date.
+[2025-05-22 11:33:41.446]	  "tmux-cpu" update success
+[2025-05-22 11:33:41.458]	    | Already up to date.
+[2025-05-22 11:33:41.481]	  "tmux-resurrect" update success
+[2025-05-22 11:33:41.492]	    | Already up to date.
+[2025-05-22 11:33:41.504]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-22 11:33:41.601]	Done.
+
+[2025-05-24 19:52:51.876]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-24 19:52:51.888]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-24 19:52:52.085]	Already installed "tmux-continuum"
+[2025-05-24 19:52:52.095]	Already installed "tmux-cpu"
+[2025-05-24 19:52:52.105]	Already installed "tmux-copycat"
+[2025-05-24 19:52:52.115]	Already installed "tmux-resurrect"
+[2025-05-24 19:52:52.127]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-24 19:52:52.283]	Updating all plugins!
+[2025-05-24 19:52:52.295]	
+[2025-05-24 19:52:52.660]	  "tmux-resurrect" update success
+[2025-05-24 19:52:52.673]	    | Already up to date.
+[2025-05-24 19:52:52.686]	  "tmux-cpu" update success
+[2025-05-24 19:52:52.698]	    | Already up to date.
+[2025-05-24 19:52:52.713]	  "tmux-copycat" update success
+[2025-05-24 19:52:52.724]	    | Already up to date.
+[2025-05-24 19:52:52.746]	  "tmux-continuum" update success
+[2025-05-24 19:52:52.758]	    | Already up to date.
+[2025-05-24 19:52:52.772]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-24 19:52:52.862]	Done.
+
+[2025-05-24 19:53:13.220]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-24 19:53:13.231]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-24 19:53:13.438]	Already installed "tmux-copycat"
+[2025-05-24 19:53:13.449]	Already installed "tmux-cpu"
+[2025-05-24 19:53:13.459]	Already installed "tmux-resurrect"
+[2025-05-24 19:53:13.469]	Already installed "tmux-continuum"
+[2025-05-24 19:53:13.480]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-24 19:53:13.626]	Updating all plugins!
+[2025-05-24 19:53:13.637]	
+[2025-05-24 19:53:13.999]	  "tmux-copycat" update success
+[2025-05-24 19:53:14.013]	    | Already up to date.
+[2025-05-24 19:53:14.025]	  "tmux-resurrect" update success
+[2025-05-24 19:53:14.036]	    | Already up to date.
+[2025-05-24 19:53:14.051]	  "tmux-cpu" update success
+[2025-05-24 19:53:14.063]	    | Already up to date.
+[2025-05-24 19:53:14.074]	  "tmux-continuum" update success
+[2025-05-24 19:53:14.087]	    | Already up to date.
+[2025-05-24 19:53:14.099]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-24 19:53:14.181]	Done.
+
+[2025-05-25 10:38:38.624]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-25 10:38:38.635]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-25 10:38:38.858]	Already installed "tmux-cpu"
+[2025-05-25 10:38:38.869]	Already installed "tmux-copycat"
+[2025-05-25 10:38:38.881]	Already installed "tmux-continuum"
+[2025-05-25 10:38:38.892]	Already installed "tmux-resurrect"
+[2025-05-25 10:38:38.905]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-25 10:38:39.062]	Updating all plugins!
+[2025-05-25 10:38:39.075]	
+[2025-05-25 10:38:39.533]	  "tmux-cpu" update success
+[2025-05-25 10:38:39.545]	  "tmux-copycat" update success
+[2025-05-25 10:38:39.585]	    | Already up to date.
+[2025-05-25 10:38:39.599]	    | Already up to date.
+[2025-05-25 10:38:39.617]	  "tmux-continuum" update success
+[2025-05-25 10:38:39.630]	    | Already up to date.
+[2025-05-25 10:38:39.689]	  "tmux-resurrect" update success
+[2025-05-25 10:38:39.702]	    | Already up to date.
+[2025-05-25 10:38:39.718]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-25 10:38:39.832]	Done.
+
+[2025-05-26 09:11:07.118]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-05-26 09:11:07.130]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-05-26 09:11:07.340]	Already installed "tmux-resurrect"
+[2025-05-26 09:11:07.351]	Already installed "tmux-copycat"
+[2025-05-26 09:11:07.361]	Already installed "tmux-cpu"
+[2025-05-26 09:11:07.371]	Already installed "tmux-continuum"
+[2025-05-26 09:11:07.383]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-05-26 09:11:07.527]	Updating all plugins!
+[2025-05-26 09:11:07.538]	
+[2025-05-26 09:11:07.884]	  "tmux-copycat" update success
+[2025-05-26 09:11:07.897]	    | Already up to date.
+[2025-05-26 09:11:07.929]	  "tmux-cpu" update success
+[2025-05-26 09:11:07.941]	    | Already up to date.
+[2025-05-26 09:11:07.966]	  "tmux-continuum" update success
+[2025-05-26 09:11:07.977]	  "tmux-resurrect" update success
+[2025-05-26 09:11:07.988]	    | Already up to date.
+[2025-05-26 09:11:07.999]	    | Already up to date.
+[2025-05-26 09:11:08.011]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-05-26 09:11:08.093]	Done.
+
+[2025-06-02 18:50:41.680]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-02 18:50:41.691]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-02 18:50:41.889]	Already installed "tmux-continuum"
+[2025-06-02 18:50:41.900]	Already installed "tmux-cpu"
+[2025-06-02 18:50:41.911]	Already installed "tmux-copycat"
+[2025-06-02 18:50:41.922]	Already installed "tmux-resurrect"
+[2025-06-02 18:50:41.934]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-02 18:50:42.080]	Updating all plugins!
+[2025-06-02 18:50:42.091]	
+[2025-06-02 18:50:42.480]	  "tmux-copycat" update success
+[2025-06-02 18:50:42.493]	    | Already up to date.
+[2025-06-02 18:50:42.522]	  "tmux-cpu" update success
+[2025-06-02 18:50:42.533]	    | Already up to date.
+[2025-06-02 18:50:42.545]	  "tmux-resurrect" update success
+[2025-06-02 18:50:42.557]	    | Already up to date.
+[2025-06-02 18:50:42.570]	  "tmux-continuum" update success
+[2025-06-02 18:50:42.581]	    | Already up to date.
+[2025-06-02 18:50:42.594]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-02 18:50:42.692]	Done.
+
+[2025-06-03 20:58:47.093]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-03 20:58:47.106]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-03 20:58:47.305]	Already installed "tmux-cpu"
+[2025-06-03 20:58:47.317]	Already installed "tmux-copycat"
+[2025-06-03 20:58:47.329]	Already installed "tmux-continuum"
+[2025-06-03 20:58:47.341]	Already installed "tmux-resurrect"
+[2025-06-03 20:58:47.354]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-03 20:58:47.509]	Updating all plugins!
+[2025-06-03 20:58:47.520]	
+[2025-06-03 20:58:47.956]	  "tmux-copycat" update success
+[2025-06-03 20:58:47.970]	  "tmux-cpu" update success
+[2025-06-03 20:58:47.983]	    | Already up to date.
+[2025-06-03 20:58:47.995]	    | Already up to date.
+[2025-06-03 20:58:48.009]	  "tmux-continuum" update success
+[2025-06-03 20:58:48.025]	    | Already up to date.
+[2025-06-03 20:58:48.042]	  "tmux-resurrect" update success
+[2025-06-03 20:58:48.057]	    | Already up to date.
+[2025-06-03 20:58:48.071]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-03 20:58:48.347]	Done.
+
+[2025-06-07 11:34:52.518]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-07 11:34:52.531]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-07 11:34:52.732]	Already installed "tmux-cpu"
+[2025-06-07 11:34:52.743]	Already installed "tmux-continuum"
+[2025-06-07 11:34:52.753]	Already installed "tmux-copycat"
+[2025-06-07 11:34:52.764]	Already installed "tmux-resurrect"
+[2025-06-07 11:34:52.775]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-07 11:34:53.024]	Updating all plugins!
+[2025-06-07 11:34:53.036]	
+[2025-06-07 11:34:53.381]	  "tmux-copycat" update success
+[2025-06-07 11:34:53.393]	    | Already up to date.
+[2025-06-07 11:34:53.428]	  "tmux-resurrect" update success
+[2025-06-07 11:34:53.440]	    | Already up to date.
+[2025-06-07 11:34:53.462]	  "tmux-continuum" update success
+[2025-06-07 11:34:53.474]	    | Already up to date.
+[2025-06-07 11:34:53.484]	  "tmux-cpu" update success
+[2025-06-07 11:34:53.496]	    | Already up to date.
+[2025-06-07 11:34:53.508]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-07 11:34:53.598]	Done.
+
+[2025-06-10 14:52:21.418]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-10 14:52:21.430]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-10 14:52:21.621]	Already installed "tmux-copycat"
+[2025-06-10 14:52:21.632]	Already installed "tmux-cpu"
+[2025-06-10 14:52:21.643]	Already installed "tmux-continuum"
+[2025-06-10 14:52:21.653]	Already installed "tmux-resurrect"
+[2025-06-10 14:52:21.664]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-10 14:52:21.813]	Updating all plugins!
+[2025-06-10 14:52:21.824]	
+[2025-06-10 14:52:22.184]	  "tmux-copycat" update success
+[2025-06-10 14:52:22.197]	    | Already up to date.
+[2025-06-10 14:52:22.262]	  "tmux-resurrect" update success
+[2025-06-10 14:52:22.273]	  "tmux-cpu" update success
+[2025-06-10 14:52:22.285]	  "tmux-continuum" update success
+[2025-06-10 14:52:22.296]	    | Already up to date.
+[2025-06-10 14:52:22.308]	    | Already up to date.
+[2025-06-10 14:52:22.319]	    | Already up to date.
+[2025-06-10 14:52:22.331]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-10 14:52:22.419]	Done.
+
+[2025-06-12 11:25:05.099]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-12 11:25:05.112]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-12 11:25:05.329]	Already installed "tmux-copycat"
+[2025-06-12 11:25:05.340]	Already installed "tmux-cpu"
+[2025-06-12 11:25:05.350]	Already installed "tmux-continuum"
+[2025-06-12 11:25:05.360]	Already installed "tmux-resurrect"
+[2025-06-12 11:25:05.372]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-12 11:25:05.533]	Updating all plugins!
+[2025-06-12 11:25:05.544]	
+[2025-06-12 11:25:05.931]	  "tmux-copycat" update success
+[2025-06-12 11:25:05.943]	    | Already up to date.
+[2025-06-12 11:25:05.962]	  "tmux-cpu" update success
+[2025-06-12 11:25:05.974]	  "tmux-resurrect" update success
+[2025-06-12 11:25:05.985]	    | Already up to date.
+[2025-06-12 11:25:05.997]	    | Already up to date.
+[2025-06-12 11:25:06.009]	  "tmux-continuum" update success
+[2025-06-12 11:25:06.022]	    | Already up to date.
+[2025-06-12 11:25:06.034]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-12 11:25:06.132]	Done.
+
+[2025-06-18 12:15:26.435]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-18 12:15:26.447]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-18 12:15:26.635]	Already installed "tmux-cpu"
+[2025-06-18 12:15:26.646]	Already installed "tmux-continuum"
+[2025-06-18 12:15:26.665]	Already installed "tmux-copycat"
+[2025-06-18 12:15:26.679]	Already installed "tmux-resurrect"
+[2025-06-18 12:15:26.692]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-18 12:15:26.850]	Updating all plugins!
+[2025-06-18 12:15:26.860]	
+[2025-06-18 12:15:27.284]	  "tmux-cpu" update success
+[2025-06-18 12:15:27.297]	    | Already up to date.
+[2025-06-18 12:15:27.312]	  "tmux-copycat" update success
+[2025-06-18 12:15:27.325]	    | Already up to date.
+[2025-06-18 12:15:27.337]	  "tmux-continuum" update success
+[2025-06-18 12:15:27.350]	    | Already up to date.
+[2025-06-18 12:15:27.376]	  "tmux-resurrect" update success
+[2025-06-18 12:15:27.388]	    | Already up to date.
+[2025-06-18 12:15:27.402]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-18 12:15:27.506]	Done.
+
+[2025-06-19 11:13:34.811]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-19 11:13:34.823]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-19 11:13:35.050]	Already installed "tmux-copycat"
+[2025-06-19 11:13:35.062]	Already installed "tmux-cpu"
+[2025-06-19 11:13:35.073]	Already installed "tmux-resurrect"
+[2025-06-19 11:13:35.087]	Already installed "tmux-continuum"
+[2025-06-19 11:13:35.099]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-19 11:13:35.274]	Updating all plugins!
+[2025-06-19 11:13:35.287]	
+[2025-06-19 11:13:35.704]	  "tmux-copycat" update success
+[2025-06-19 11:13:35.722]	    | Already up to date.
+[2025-06-19 11:13:35.738]	  "tmux-resurrect" update success
+[2025-06-19 11:13:35.753]	    | Already up to date.
+[2025-06-19 11:13:35.772]	  "tmux-continuum" update success
+[2025-06-19 11:13:35.786]	    | Already up to date.
+[2025-06-19 11:13:35.821]	  "tmux-cpu" update success
+[2025-06-19 11:13:35.837]	    | Already up to date.
+[2025-06-19 11:13:35.851]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-19 11:13:35.978]	Done.
+
+[2025-06-28 12:11:50.746]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-28 12:11:50.758]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-28 12:11:50.939]	Already installed "tmux-copycat"
+[2025-06-28 12:11:50.950]	Already installed "tmux-continuum"
+[2025-06-28 12:11:50.961]	Already installed "tmux-cpu"
+[2025-06-28 12:11:50.972]	Already installed "tmux-resurrect"
+[2025-06-28 12:11:50.984]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-28 12:11:51.137]	Updating all plugins!
+[2025-06-28 12:11:51.148]	
+[2025-06-28 12:11:51.610]	  "tmux-copycat" update success
+[2025-06-28 12:11:51.623]	    | Already up to date.
+[2025-06-28 12:11:51.647]	  "tmux-cpu" update success
+[2025-06-28 12:11:51.658]	    | Already up to date.
+[2025-06-28 12:11:51.669]	  "tmux-resurrect" update success
+[2025-06-28 12:11:51.681]	    | Already up to date.
+[2025-06-28 12:11:51.693]	  "tmux-continuum" update success
+[2025-06-28 12:11:51.703]	    | Already up to date.
+[2025-06-28 12:11:51.714]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-28 12:11:51.808]	Done.
+
+[2025-06-30 17:37:29.847]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-06-30 17:37:29.860]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-06-30 17:37:30.069]	Already installed "tmux-resurrect"
+[2025-06-30 17:37:30.080]	Already installed "tmux-cpu"
+[2025-06-30 17:37:30.091]	Already installed "tmux-continuum"
+[2025-06-30 17:37:30.102]	Already installed "tmux-copycat"
+[2025-06-30 17:37:30.114]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-06-30 17:37:30.279]	Updating all plugins!
+[2025-06-30 17:37:30.290]	
+[2025-06-30 17:37:30.687]	  "tmux-copycat" update success
+[2025-06-30 17:37:30.701]	    | Already up to date.
+[2025-06-30 17:37:30.715]	  "tmux-cpu" update success
+[2025-06-30 17:37:30.731]	    | Already up to date.
+[2025-06-30 17:37:30.762]	  "tmux-resurrect" update success
+[2025-06-30 17:37:30.775]	    | Already up to date.
+[2025-06-30 17:37:30.787]	  "tmux-continuum" update success
+[2025-06-30 17:37:30.800]	    | Already up to date.
+[2025-06-30 17:37:30.814]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-06-30 17:37:30.918]	Done.
+
+[2025-07-08 10:01:41.301]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-08 10:01:41.313]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-08 10:01:41.551]	Already installed "tmux-cpu"
+[2025-07-08 10:01:41.562]	Already installed "tmux-continuum"
+[2025-07-08 10:01:41.573]	Already installed "tmux-copycat"
+[2025-07-08 10:01:41.583]	Already installed "tmux-resurrect"
+[2025-07-08 10:01:41.594]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-08 10:01:41.785]	Updating all plugins!
+[2025-07-08 10:01:41.797]	
+[2025-07-08 10:01:42.203]	  "tmux-copycat" update success
+[2025-07-08 10:01:42.216]	  "tmux-cpu" update success
+[2025-07-08 10:01:42.230]	    | Already up to date.
+[2025-07-08 10:01:42.243]	    | Already up to date.
+[2025-07-08 10:01:42.254]	  "tmux-continuum" update success
+[2025-07-08 10:01:42.267]	    | Already up to date.
+[2025-07-08 10:01:42.280]	  "tmux-resurrect" update success
+[2025-07-08 10:01:42.291]	    | Already up to date.
+[2025-07-08 10:01:42.304]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-08 10:01:42.398]	Done.
+
+[2025-07-11 18:50:38.867]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-11 18:50:38.879]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-11 18:50:39.123]	Already installed "tmux-copycat"
+[2025-07-11 18:50:39.135]	Already installed "tmux-cpu"
+[2025-07-11 18:50:39.145]	Already installed "tmux-continuum"
+[2025-07-11 18:50:39.157]	Already installed "tmux-resurrect"
+[2025-07-11 18:50:39.170]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-11 18:50:39.345]	Updating all plugins!
+[2025-07-11 18:50:39.357]	
+[2025-07-11 18:50:40.282]	  "tmux-copycat" update success
+[2025-07-11 18:50:40.295]	  "tmux-continuum" update success
+[2025-07-11 18:50:40.310]	  "tmux-cpu" update success
+[2025-07-11 18:50:40.323]	    | Already up to date.
+[2025-07-11 18:50:40.335]	    | Already up to date.
+[2025-07-11 18:50:40.350]	    | Already up to date.
+[2025-07-11 18:50:40.363]	  "tmux-resurrect" update success
+[2025-07-11 18:50:40.380]	    | Already up to date.
+[2025-07-11 18:50:40.394]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-11 18:50:40.514]	Done.
+
+[2025-07-11 18:52:47.255]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-11 18:52:47.267]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-11 18:52:47.506]	Already installed "tmux-copycat"
+[2025-07-11 18:52:47.518]	Already installed "tmux-resurrect"
+[2025-07-11 18:52:47.529]	Already installed "tmux-cpu"
+[2025-07-11 18:52:47.541]	Already installed "tmux-continuum"
+[2025-07-11 18:52:47.552]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-11 18:52:47.721]	Updating all plugins!
+[2025-07-11 18:52:47.732]	
+[2025-07-11 18:52:48.078]	  "tmux-copycat" update success
+[2025-07-11 18:52:48.090]	    | Already up to date.
+[2025-07-11 18:52:48.103]	  "tmux-cpu" update success
+[2025-07-11 18:52:48.115]	    | Already up to date.
+[2025-07-11 18:52:48.141]	  "tmux-resurrect" update success
+[2025-07-11 18:52:48.152]	    | Already up to date.
+[2025-07-11 18:52:48.175]	  "tmux-continuum" update success
+[2025-07-11 18:52:48.187]	    | Already up to date.
+[2025-07-11 18:52:48.199]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-11 18:52:48.286]	Done.
+
+[2025-07-11 18:53:00.442]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-11 18:53:00.455]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-11 18:53:00.748]	Already installed "tmux-copycat"
+[2025-07-11 18:53:00.759]	Already installed "tmux-cpu"
+[2025-07-11 18:53:00.771]	Already installed "tmux-resurrect"
+[2025-07-11 18:53:00.783]	Already installed "tmux-continuum"
+[2025-07-11 18:53:00.795]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-11 18:53:00.844]	Updating all plugins!
+[2025-07-11 18:53:00.855]	
+[2025-07-11 18:53:01.203]	  "tmux-copycat" update success
+[2025-07-11 18:53:01.215]	    | Already up to date.
+[2025-07-11 18:53:01.249]	  "tmux-cpu" update success
+[2025-07-11 18:53:01.265]	    | Already up to date.
+[2025-07-11 18:53:01.301]	  "tmux-resurrect" update success
+[2025-07-11 18:53:01.316]	    | Already up to date.
+[2025-07-11 18:53:01.342]	  "tmux-continuum" update success
+[2025-07-11 18:53:01.355]	    | Already up to date.
+[2025-07-11 18:53:01.368]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-11 18:53:01.456]	Done.
+
+[2025-07-11 18:53:02.072]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-11 18:53:02.086]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-11 18:53:02.305]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-11 18:53:02.473]	Updating all plugins!
+[2025-07-11 18:53:02.486]	
+[2025-07-11 18:53:02.500]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-11 18:53:02.564]	Removing "tmux"
+[2025-07-11 18:53:02.576]	  "tmux" clean success
+[2025-07-11 18:53:02.588]	Removing "tmux-continuum"
+[2025-07-11 18:53:02.599]	  "tmux-continuum" clean success
+[2025-07-11 18:53:02.612]	Removing "tmux-copycat"
+[2025-07-11 18:53:02.623]	  "tmux-copycat" clean success
+[2025-07-11 18:53:02.634]	Removing "tmux-cpu"
+[2025-07-11 18:53:02.646]	  "tmux-cpu" clean success
+[2025-07-11 18:53:02.657]	Removing "tmux-resurrect"
+[2025-07-11 18:53:02.668]	  "tmux-resurrect" clean success
+[2025-07-11 18:53:02.680]	Done.
+
+[2025-07-14 13:50:13.809]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-14 13:50:13.822]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-14 13:50:14.031]	Installing "tmux-cpu"
+[2025-07-14 13:50:14.043]	Installing "tmux-copycat"
+[2025-07-14 13:50:14.055]	Installing "tmux-resurrect"
+[2025-07-14 13:50:14.066]	Installing "tmux-continuum"
+[2025-07-14 13:50:14.471]	  "tmux-copycat" download success
+[2025-07-14 13:50:14.489]	  "tmux-cpu" download success
+[2025-07-14 13:50:14.523]	  "tmux-continuum" download success
+[2025-07-14 13:50:14.935]	  "tmux-resurrect" download success
+[2025-07-14 13:50:14.948]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-14 13:50:15.131]	Updating all plugins!
+[2025-07-14 13:50:15.143]	
+[2025-07-14 13:50:15.489]	  "tmux-copycat" update success
+[2025-07-14 13:50:15.501]	    | Already up to date.
+[2025-07-14 13:50:15.530]	  "tmux-cpu" update success
+[2025-07-14 13:50:15.543]	    | Already up to date.
+[2025-07-14 13:50:15.554]	  "tmux-resurrect" update success
+[2025-07-14 13:50:15.566]	    | Already up to date.
+[2025-07-14 13:50:15.578]	  "tmux-continuum" update success
+[2025-07-14 13:50:15.592]	    | Already up to date.
+[2025-07-14 13:50:15.604]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-14 13:50:15.700]	Done.
+
+[2025-07-18 12:48:24.450]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-18 12:48:24.462]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-18 12:48:24.715]	Already installed "tmux-cpu"
+[2025-07-18 12:48:24.726]	Already installed "tmux-copycat"
+[2025-07-18 12:48:24.740]	Already installed "tmux-resurrect"
+[2025-07-18 12:48:24.752]	Already installed "tmux-continuum"
+[2025-07-18 12:48:24.770]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-18 12:48:25.393]	Updating all plugins!
+[2025-07-18 12:48:25.409]	
+[2025-07-18 12:48:25.862]	  "tmux-cpu" update success
+[2025-07-18 12:48:25.873]	  "tmux-copycat" update success
+[2025-07-18 12:48:25.884]	    | Already up to date.
+[2025-07-18 12:48:25.895]	    | Already up to date.
+[2025-07-18 12:48:25.907]	  "tmux-resurrect" update success
+[2025-07-18 12:48:25.918]	    | Already up to date.
+[2025-07-18 12:48:25.930]	  "tmux-continuum" update success
+[2025-07-18 12:48:25.941]	    | Already up to date.
+[2025-07-18 12:48:25.955]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-18 12:48:26.098]	Done.
+
+[2025-07-23 15:34:51.923]	List of discovered tpm plugins: tmux-plugins/tmux-copycat tmux-plugins/tmux-cpu tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2025-07-23 15:34:51.934]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/install_plugins
+[2025-07-23 15:34:52.180]	Already installed "tmux-copycat"
+[2025-07-23 15:34:52.191]	Already installed "tmux-cpu"
+[2025-07-23 15:34:52.202]	Already installed "tmux-continuum"
+[2025-07-23 15:34:52.214]	Already installed "tmux-resurrect"
+[2025-07-23 15:34:52.225]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/update_plugins all
+[2025-07-23 15:34:52.404]	Updating all plugins!
+[2025-07-23 15:34:52.417]	
+[2025-07-23 15:34:52.865]	  "tmux-cpu" update success
+[2025-07-23 15:34:52.877]	    | Already up to date.
+[2025-07-23 15:34:52.889]	  "tmux-resurrect" update success
+[2025-07-23 15:34:52.901]	    | Already up to date.
+[2025-07-23 15:34:52.912]	  "tmux-copycat" update success
+[2025-07-23 15:34:52.924]	    | Already up to date.
+[2025-07-23 15:34:52.936]	  "tmux-continuum" update success
+[2025-07-23 15:34:52.947]	    | Already up to date.
+[2025-07-23 15:34:52.960]	Invoking /Users/mendes/.config/tmux/plugins/tpm/bin/clean_plugins all
+[2025-07-23 15:34:53.049]	Done.
+

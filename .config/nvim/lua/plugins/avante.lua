@@ -3,12 +3,12 @@ return {
   event = "VeryLazy",
   version = false, -- Never set this value to "*"! Never!
   opts = {
-    -- add any opts here
-    -- for example
-    provider = "gemini",
-    gemini = {
-      model = "gemini-2.5-flash-preview-04-17",
-    },
+    provider = "copilot",
+    -- providers = {
+    --   gemini = {
+    --     model = "gemini-2.0-flash-preview-04-17", -- use this for gemini 2.0 flash
+    --   },
+    -- },
   },
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
   build = "make",
