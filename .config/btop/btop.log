@@ -1,0 +1,6 @@
+
+2025/04/26 (00:16:03) | ===> btop++ v.1.4.0
+2025/04/26 (00:16:03) | ERROR: Exception during Config::unlock() : unordered_map::at: key not found
+
+2025/04/27 (11:40:08) | ===> btop++ v.1.4.0
+2025/04/27 (11:40:08) | ERROR: Exception in runner thread -> Proc:: -> vector
