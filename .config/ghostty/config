@@ -1,4 +1,4 @@
-theme = catppuccin-mocha
+theme = Catppuccin Mocha
 
 font-family = Berkeley Mono
 font-style = Regular
@@ -14,4 +14,4 @@ cursor-style-blink = false
 shell-integration = zsh
 shell-integration-features = no-cursor
 
-#custom-shader = ./ghostty-shaders/matrix-hallway.glsl
+custom-shader = ./ghostty-shaders/matrix-hallway.glsl

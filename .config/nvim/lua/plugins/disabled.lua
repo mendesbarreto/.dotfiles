@@ -23,7 +23,6 @@ return {
   { "stevearc/dial.nvim", enabled = false },
   -- Mine
   -- { "nvim-neotest/neotest", enabled = false },
-
   -- Coding
   -- { "L3MON4D3/LuaSnip", enabled = false },
   -- { "rafamadriz/friendly-snippets", enabled = false },
@@ -55,7 +54,7 @@ return {
   -- { "williamboman/mason.nvim", enabled = false },
   -- { "leoluz/nvim-dap-go", enabled = false },
   -- { "mfussenegger/nvim-dap", enabled = false },
-  -- { "jay-babu/mason-nvim-dap.nvim", enabled = false},
+  -- { "jay-babu/mason-nvim-dap.nvim", enabled = false },
 
   -- TreeSitter
   -- { "nvim-treesitter/nvim-treesitter", enabled = false },
