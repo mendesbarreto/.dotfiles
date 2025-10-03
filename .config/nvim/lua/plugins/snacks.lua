@@ -2,7 +2,8 @@ return {
   "folke/snacks.nvim",
   opts = {
     bigfile = { enabled = true },
-    explorer = { enabled = true },
+    explorer = { enabled = false },
+    dim = { enabled = false },
     indent = { enabled = true },
     notifier = {
       enabled = true,
@@ -10,7 +11,7 @@ return {
     },
     quickfile = { enabled = true },
     scope = { enabled = true },
-    scroll = { enabled = true },
+    scroll = { enabled = false },
     statuscolumn = { enabled = true },
     words = { enabled = true },
     styles = {

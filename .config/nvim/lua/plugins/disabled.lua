@@ -21,6 +21,7 @@ return {
   { "indent-blankline.nvim", enabled = false },
   { "folke/edgy.nvim", enabled = false },
   { "stevearc/dial.nvim", enabled = false },
+  { "nvim-mini/mini.animate", enabled = false },
   -- Mine
   -- { "nvim-neotest/neotest", enabled = false },
   -- Coding
