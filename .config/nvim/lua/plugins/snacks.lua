@@ -20,7 +20,25 @@ return {
       },
     },
     input = { enabled = true },
-    picker = { enabled = true },
+    picker = {
+      enabled = true,
+      win = {
+        list = {
+          keys = {
+            ["<a-h>"] = false, -- disable default
+            -- ["<a-i>"] = false, -- disable default
+            ["<C-h>"] = "toggle_hidden",
+          },
+        },
+        input = {
+          keys = {
+            ["<a-h>"] = false, -- disable default
+            -- ["<a-i>"] = false, -- disable default
+            ["<C-h>"] = { "toggle_hidden", mode = { "i", "n" } },
+          },
+        },
+      },
+    },
     dashboard = {
       preset = {
         header = [[

@@ -11,6 +11,7 @@ return {
     table.insert(opts.ensure_installed, "omnisharp")
     table.insert(opts.ensure_installed, "biome")
     table.insert(opts.ensure_installed, "zls")
+    table.insert(opts.ensure_installed, "rubocop")
     opts.ui = {
       border = "rounded",
     }

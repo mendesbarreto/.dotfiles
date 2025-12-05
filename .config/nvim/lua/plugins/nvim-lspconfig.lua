@@ -20,6 +20,12 @@ return {
     },
     servers = {
       codebook = {},
+      ruby_lsp = {
+        filetypes = { "ruby", "Fastfile", "Appfile", "MatchFile", "Pluginfile" },
+      },
+      rubocop = {
+        filetypes = { "ruby", "Fastfile", "Appfile", "MatchFile", "Pluginfile" },
+      },
       vtsls = {
         filetypes = {
           "javascript",
@@ -38,7 +44,7 @@ return {
               maxInlayHintLength = 30,
               completion = {
                 enableServerSideFuzzyMatch = true,
-                entriesLimit = 50,
+                -- entriesLimit = 50,
               },
             },
           },

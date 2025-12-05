@@ -1,5 +1,9 @@
 theme = Catppuccin Mocha
 
+macos-option-as-alt = left
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+
 font-family = Berkeley Mono
 font-style = Regular
 font-size = 13.5

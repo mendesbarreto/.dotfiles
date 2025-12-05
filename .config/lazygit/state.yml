@@ -1,11 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
+    - /Users/mendes/Git/xpertsea/mobile-insights
     - /Users/mendes/Git/xpertsea/web-insights
     - /Users/mendes/Git/xpertsea/_terraform
+    - /Users/mendes/Git/xpertsea/ml-task-pond-state
     - /Users/mendes/Git/xpertsea/module-farm
     - /Users/mendes/Git/personal/web-east-coast-sheet-metal
     - /Users/mendes/Git/xpertsea/_ansible
-    - /Users/mendes/Git/xpertsea/mobile-insights
     - /Users/mendes/Git/personal/portfolio-nextjs
     - /Users/mendes/Git/personal/live-reload-typescript-template
     - /Users/mendes/Git/personal/mendesbarreto
@@ -18,7 +19,7 @@ recentrepos:
     - /Users/mendes/Git/personal/_ansible
 startuppopupversion: 5
 didshowhunkstaginghint: true
-lastversion: 0.55.1
+lastversion: 0.56.0
 customcommandshistory:
     - q
     - xa
