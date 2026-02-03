@@ -1,23 +1,25 @@
 lastupdatecheck: 0
 recentrepos:
+    - /Users/mendes/Git/xpertsea/web-insights/harvest-report-header
     - /Users/mendes/Git/xpertsea/module-farm
+    - /Users/mendes/Git/xpertsea/_ansible
+    - /Users/mendes/Git/personal/portfolio-vite
+    - /Users/mendes/Git/xpertsea/module-data
     - /Users/mendes/Git/xpertsea/_terraform
     - /Users/mendes/Git/xpertsea/web-insights
-    - /Users/mendes/Git/personal/my-computer-from-scratch
     - /Users/mendes/Git/xpertsea/mobile-lib-snapper
+    - /Users/mendes/Git/personal/portfolio-nextjs
+    - /Users/mendes/Git/personal/mendesbarreto
+    - /Users/mendes/Git/personal/web-east-coast-sheet-metal
+    - /Users/mendes/Git/personal/my-computer-from-scratch
     - /Users/mendes/Git/xpertsea/mobile-insights
     - /Users/mendes/Git/xpertsea/mobile-lib-picture-analyzer
     - /Users/mendes/Git/xpertsea/mobile-lib-snapper-android
     - /Users/mendes/Git/xpertsea/ml-lib-sgf
     - /Users/mendes/Git/xpertsea/base-docker-images
     - /Users/mendes/Git/xpertsea/react-native-sqlite-2
-    - /Users/mendes/Git/xpertsea/_ansible
     - /Users/mendes/Git/xpertsea/ml-task-pond-state
-    - /Users/mendes/Git/personal/web-east-coast-sheet-metal
-    - /Users/mendes/Git/personal/portfolio-nextjs
     - /Users/mendes/Git/personal/live-reload-typescript-template
-    - /Users/mendes/Git/personal/mendesbarreto
-    - /Users/mendes/Git/xpertsea/module-data
     - /Users/mendes/Git/xpertsea/web-backoffice
     - /Users/mendes/Git/xpertsea/mobile-expo-snapper-plugin
     - /Users/mendes/Git/xpertsea/gqlts
@@ -25,7 +27,7 @@ recentrepos:
     - /Users/mendes/Git/personal/_ansible
 startuppopupversion: 5
 didshowhunkstaginghint: true
-lastversion: 0.58.0
+lastversion: 0.58.1
 customcommandshistory:
     - q
     - xa
